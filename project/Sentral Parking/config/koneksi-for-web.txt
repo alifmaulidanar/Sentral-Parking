@@ -1,0 +1,10 @@
+<?php
+	error_reporting(0);
+
+	$host = "localhost";
+	$user = "id19565545_dvrsty";
+	$pass = "E(M0U2AeF3WC?K|k";
+	$db = "id19565545_database_sentral_parking";
+
+	$con = mysqli_connect($host, $user, $pass, $db) or DIE("<script>alert('Koneksi Database Gagal!')</script>");
+?>

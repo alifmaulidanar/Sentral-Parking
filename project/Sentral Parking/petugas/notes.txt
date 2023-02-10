@@ -1,0 +1,13 @@
+login petugas:
+    - udah connect database utk input username & pass, tapi belum bisa required login
+
+home petugas:
+    1) masuk parkir
+        - "Kosong" belum connect database (database belum menerima input)
+        - "Status" & "Jenis Kendaraan" harus menampilkan data dari tap kartu -> dibuat role visitor dan member
+        - tombol submit nanti dihilangkan, isi "Status" & "Jenis Kendaraan" yang berupa data terkait akan hilang otomatis beberapa detik setelah pengunjung tap kartu
+    2) keluar parkir
+        - "kode", "status", "jenis", "jam masuk", "durasi", dan "tarif" akan menampilkan data pengunjung yang tap kartu ketika keluar
+    3) daftar Kendaraan
+        - "terisi" akan menampilkan jumlah parkiran yang sudah terisi (belum connnect database)
+        - tabel daftar kendaraan berisi data parkir secara sederhana

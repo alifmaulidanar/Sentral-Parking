@@ -1,0 +1,568 @@
+/* Fonts */
+@font-face {
+	font-family: 'Noto Sans Regular';
+	src: url(../assets/fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Noto Sans SemiBold';
+	src: url(../assets/fonts/Noto_Sans/NotoSans-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: 'Noto Sans Bold';
+	src: url(../assets/fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+
+/* Style */
+body, html {
+	/* min-height: 100vh; */
+	font-family: 'Noto Sans Regular';
+    background-color: #ECECEC;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.logo-sentral {
+    width: 28px;
+    height: 28px;
+    margin-top: -.25rem !important;
+}
+
+.profile {
+    width: 12.5%;
+    margin-right: 1.25rem;
+}
+
+.gradien {
+    /* height: 3.75rem; */
+    background-image: linear-gradient(135deg, #3A5B92, #061733);
+}
+
+.navbar-brand {
+    font-family: "Noto Sans Bold";
+    font-size: 1.563rem;
+    margin-left: 1.25rem;
+}
+
+.menu {
+    font-family: "Noto Sans Semibold";
+    font-size: 1.25rem;
+}
+
+.tombol-profile {
+    /* width: 15.625rem;
+    height: 2.188rem; */
+    font-size: 1.25rem;
+    /* color: #303030; */
+}
+
+.area-mp {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 53.125rem;
+    height: 21.875rem;
+    background-color: #FFFFFF;
+    color: #303030;
+    border-radius: 8px;
+}
+
+.status-pengunjung, .jenis-kendaraan, .unregistered {
+    font-size: 1.25rem;
+}
+
+.unregistered {
+    font-family: "Noto Sans Regular";
+    color: red;
+    font-size: 1.125rem;
+    padding-left: 3.5rem !important;
+    padding-top: 1.25rem !important;
+    margin-bottom: 0 !important;
+}
+
+.unregistered2 {
+    font-family: "Noto Sans Regular" !important;
+    color: red;
+    font-size: 1.125rem;
+    /* padding-left: 3.5rem !important; */
+    padding-top: 2.5rem !important;
+    margin-bottom: 0 !important;
+}
+
+.statusnya, .jenisnya {
+    font-size: 1.75rem;
+    font-family: "Noto Sans Semibold";
+}
+
+.mp {
+    margin-left: 0;
+    padding-top: 1.875rem !important;
+}
+
+.area-kp {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 53.125rem;
+    height: 21.875rem;
+    background-color: #FFFFFF;
+    color: #303030;
+    border-radius: 8px;
+}
+
+.area-dk {
+    width: 75rem;
+    /* height: 25.25rem; */
+    background-color: #FFFFFF;
+    color: #303030;
+    border-radius: 8px;
+}
+
+.card {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.15));
+}
+
+.marpad-1 {
+    /* margin-top: 3rem; */
+    padding-top: 7rem;
+}
+
+.marpad-2 {
+    /* margin-top: 3rem; */
+    padding-top: 3rem;
+}
+
+.masuk .card-header {
+    background-color: #3A5B92;
+    border-radius: 8px 8px 0 0;
+    font-size: 1.563rem;
+    font-family: "Noto Sans Semibold";
+    height: 4.25rem;
+}
+
+.judul {
+    color: #F4F4F4;
+    margin-left: 1.25rem;
+}
+
+.kosong {
+    color: #F6C700;
+    margin-right: 1.25rem;
+}
+
+.masuk {
+    height: 21.875rem;
+    border-radius: 8px;
+}
+
+.form-control {
+    color: #666666;
+    background-color: #f4f4f4;
+    font-size: 1.25rem;
+    border: none;
+    border-bottom: 1px solid #666666;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: .938rem;
+    border-radius: 0;
+    background: none;
+}
+
+.form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #101010;
+    color: #303030;
+    background-color: transparent;
+}
+
+/* .username-field {
+    padding-top: .625rem;
+    padding-bottom: 1.875rem;
+}
+
+.password-field {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+
+.plat {
+    padding-top: 2.5rem !important;
+}
+
+.merek {
+    padding-top: 1.5rem !important;
+} */
+
+/* .status {
+    padding-top: 2.5rem !important;
+}
+
+.jenis {
+    padding-top: 2.5rem !important;
+} */
+
+.jenis .judul {
+    color: #303030;
+    font-size: 1.25rem;
+    margin-left: -.063rem !important;
+}
+
+/* .jenis .opsi {
+    color: #303030;
+    font-size: 1.25rem;
+    margin-top: 0.313rem !important;
+} */
+
+.tombol-submit {
+    height: 3.125rem;
+    width: 34.5rem;
+    font-size: 1.3rem;
+    /* font-family: "Noto Sans Semibold"; */
+    margin-top: 1.875rem !important;
+    margin-bottom: .938rem;
+    border-radius: 5px !important;
+}
+
+.keluar .card-header {
+    background-color: #C03738;
+    border-radius: 8px 8px 0 0;
+    font-size: 1.563rem;
+    font-family: "Noto Sans Semibold";
+    height: 4.25rem;
+}
+
+.keluar {
+    height: 21.875rem;
+    border-radius: 8px;
+}
+
+.data-keluar {
+    color: #303030;
+    font-size: 1.25rem;
+}
+
+.data {
+    padding-top: .75rem;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.done {
+    margin-bottom: 1rem;
+}
+
+.tombol-done {
+    height: 3.125rem;
+    width: 17rem;
+    font-size: 1.3rem;
+    /* font-family: "Noto Sans Semibold"; */
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px !important;
+    background-color: #04AA6D;
+}
+
+.tombol-done:disabled {
+    background-color: #303030 !important;
+}
+
+.tombol-rahasia {
+    height: .5rem;
+    width: 17rem;
+    font-size: 1rem;
+    /* font-family: "Noto Sans Semibold"; */
+    margin-top: 0rem;
+    margin-bottom: 0;
+    border-radius: 5px !important;
+    background-color: #04AA6D;
+}
+
+.tombol-done:hover, .tombol-done:active {
+    background-color: #058958;
+    
+}
+
+.daftar {
+    border-radius: 8px;
+}
+
+.daftar .card-header {
+    background-color: #3A5B92;
+    border-radius: 8px 8px 0 0;
+    font-size: 1.563rem;
+    font-family: "Noto Sans Semibold";
+    height: 4.25rem;
+}
+
+.tabel-kendaraan {
+    color: #303030;
+    width: 68.75rem !important;
+    font-size: 1.125rem;
+    margin-left: 3.125rem;
+    /* margin-right: 3.125rem; */
+    /* margin-left: 0; */
+    margin-right: 0;
+}
+
+.kendaraan {
+    margin-left: 0 !important;
+}
+
+.tabel-kendaraan thead {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.tabel-kendaraan td {
+    text-align: center;
+}
+
+.plat {
+    padding-top: 2.5rem !important;
+}
+
+table {
+    width: 100%;
+}
+
+th.kode, th.status, th.jenis, th.waktu-masuk, th.durasi, th.tarif {
+    width: 36%;
+}
+
+td.titik-dua {
+    width: 1%;;
+}
+
+td.isi {
+    width: 60%;
+}
+
+/* Media Queries */
+@media (max-width: 1400px) {
+    .navbar-brand {
+        font-family: "Noto Sans Bold";
+        font-size: 1.25rem;
+        margin-left: 1.1rem;
+    }
+
+    .logo-sentral {
+        width: 18px;
+        height: 18px;
+        margin-top: -.25rem !important;
+    }
+    
+    .menu {
+        font-family: "Noto Sans Semibold";
+        font-size: 1rem;
+    }
+    
+    .tombol-profile {
+        /* width: 15.625rem;
+        height: 2.188rem; */
+        font-size: 1rem;
+        /* color: #303030; */
+    }
+
+    .area-mp {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 38rem;
+        height: 11rem;
+        background-color: #FFFFFF;
+        color: #303030;
+        border-radius: 8px;
+    }
+    
+    .status-pengunjung, .jenis-kendaraan {
+        font-size: 1rem;
+    }
+    
+    .unregistered {
+        font-family: "Noto Sans Regular";
+        color: red;
+        font-size: .8rem;
+        padding-left: 3.2rem !important;
+        padding-top: 1.5rem !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .unregistered2 {
+        font-family: "Noto Sans Regular" !important;
+        color: red;
+        font-size: .8rem;
+        /* padding-left: 3.5rem !important; */
+        padding-top: 2.5rem !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .statusnya, .jenisnya {
+        font-size: 1.1rem;
+        font-family: "Noto Sans Semibold";
+    }
+    
+    .mp {
+        margin-left: 0;
+        padding-top: 1.5rem !important;
+    }
+
+    .plat {
+        padding-top: 1.3rem !important;
+    }
+    
+    .area-kp {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 38rem;
+        height: 11rem;
+        background-color: #FFFFFF;
+        color: #303030;
+        border-radius: 8px;
+    }
+    
+    .area-dk {
+        width: 55rem;
+        /* height: 25.25rem; */
+        background-color: #FFFFFF;
+        color: #303030;
+        border-radius: 8px;
+    }
+
+    .masuk .card-header {
+        background-color: #3A5B92;
+        border-radius: 8px 8px 0 0;
+        font-size: 1.2rem;
+        font-family: "Noto Sans Semibold";
+        height: 3.2rem;
+    }
+    
+    .judul {
+        color: #F4F4F4;
+        margin-left: 1.25rem;
+    }
+    
+    .kosong {
+        color: #F6C700;
+        margin-right: 1.25rem;
+    }
+    
+    .masuk {
+        height: 18rem;
+        border-radius: 8px;
+    }
+    
+    .form-control {
+        color: #666666;
+        background-color: #f4f4f4;
+        font-size: 1.1rem;
+        border: none;
+        border-bottom: 1px solid #666666;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: .938rem;
+        border-radius: 0;
+        background: none;
+    }
+
+    .marpad-1 {
+        /* margin-top: 3rem; */
+        padding-top: 7rem;
+    }
+    
+    .marpad-2 {
+        /* margin-top: 3rem; */
+        padding-top: 9.5rem;
+    }
+
+    .keluar {
+        height: 18rem;
+        border-radius: 8px;
+    }
+
+    .keluar .card-header {
+        background-color: #C03738;
+        border-radius: 8px 8px 0 0;
+        font-size: 1.2rem;
+        font-family: "Noto Sans Semibold";
+        height: 3.2rem;
+    }
+
+    .data-keluar {
+        color: #303030;
+        font-size: .9rem;
+        padding-top: 1rem !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .data {
+        padding-top: .75rem;
+    }
+    
+    .borderless td, .borderless th {
+        border: none;
+    }
+    
+    .done {
+        margin-bottom: 1rem;
+        width: 12.5rem;
+    }
+    
+    .tombol-done {
+        height: 2.2rem;
+        width: 12.5rem;
+        font-size: .8rem;
+        /* font-family: "Noto Sans Semibold"; */
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 5px !important;
+        background-color: #04AA6D;
+    }
+
+    th.kode, th.status, th.jenis, th.waktu-masuk, th.durasi, th.tarif {
+        width: 39%;
+    }
+    
+    td.titik-dua {
+        width: 1%;;
+    }
+    
+    td.isi {
+        width: 58%;
+    }
+
+    .daftar .card-header {
+        background-color: #3A5B92;
+        border-radius: 8px 8px 0 0;
+        font-size: 1.2rem;
+        font-family: "Noto Sans Semibold";
+        height: 3.2rem;
+    }
+
+    .tabel-kendaraan {
+        color: #303030;
+        width: 48.75rem !important;
+        font-size: 1.125rem;
+        margin-left: 3.125rem;
+        /* margin-right: 3.125rem; */
+        /* margin-left: 0; */
+        margin-right: 0;
+    }
+    
+    .tabel-kendaraan thead {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .tabel-kendaraan td {
+        font-size: 1rem;
+    }
+}

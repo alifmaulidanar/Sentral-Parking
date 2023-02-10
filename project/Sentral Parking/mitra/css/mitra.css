@@ -1,0 +1,199 @@
+/* Fonts */
+@font-face {
+	font-family: 'Noto Sans Regular';
+	src: url(../../assets/fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Noto Sans SemiBold';
+	src: url(../../assets/fonts/Noto_Sans/NotoSans-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: 'Noto Sans Bold';
+	src: url(../../assets/fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+
+/* Style */
+body, html {
+	height: 100vh;
+	font-family: 'Noto Sans Regular';
+}
+
+.container-fluid {
+    height: 100vh;
+    width: 100vw !important;
+}
+
+.clock-area {
+	/* The image used */
+	/* background-image: url(../../assets/background/login-mitra-linear.png); */
+    background-image: url(../../assets/background/login-mitra-linear-logo.png);
+
+	/* Full height */
+	height: 100vh;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-area {
+	/* The image used */
+	background-image: url(../../assets/background/login-mitra.png);
+
+	/* Full height */
+	height: 100vh;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jam {
+    font-family: "Noto Sans Bold";
+    font-size: 5.75rem;
+}
+
+.hari-tanggal {
+    font-family: "Noto Sans Semibold";
+    font-size: 2.5rem;
+}
+
+.login-area {
+    width: 40.625rem;
+    height: 45.625rem;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: "Noto Sans Bold";
+    font-size: 2.5rem;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    color: #303030;
+}
+
+.form-control {
+    color: #666666;
+    background-color: #f4f4f4;
+    font-size: 1.563rem;
+    border: none;
+    border-bottom: 1px solid #666666;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: .938rem;
+    border-radius: 0;
+    background: none;
+}
+
+.form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #101010;
+    color: #303030;
+    background-color: #f4f4f4;
+}
+
+.username-field {
+    padding-top: .625rem;
+    padding-bottom: 1.875rem;
+}
+
+.password-field {
+    /* padding-top: 1.875rem; */
+    padding-bottom: 1.875rem;
+}
+
+.tombol-login {
+    height: 3.75rem;
+    width: 33.5rem;
+    font-size: 1.5rem;
+    font-family: "Noto Sans Semibold";
+    margin-top: 3.125rem;
+    margin-bottom: .938rem;
+    border-radius: 5px !important;
+}
+
+.tombol-admin {
+    height: 3.75rem;
+    width: 33.5rem;
+    font-size: 1.5rem;
+    font-family: "Noto Sans Semibold";
+    margin-top: 1.875rem;
+    margin-bottom: .938rem;
+    border-radius: 5px !important;
+}
+
+/* Media Queries */
+@media (max-width: 1400px) {
+    .jam {
+        font-size: 4rem;
+    }
+
+    .hari-tanggal {
+        font-size: 2rem;
+    }
+
+    .login-area {
+        width: 30rem;
+        height: 35rem;
+        background-color: #F4F4F4;
+        border-radius: 0.625rem;
+    }
+
+    .title {
+        font-family: "Noto Sans Bold";
+        font-size: 1.8rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        color: #303030;
+    }
+
+    .form-control {
+        color: #666666;
+        background-color: #f4f4f4;
+        font-size: 1.2rem;
+        border: none;
+        border-bottom: 1px solid #666666;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+        border-radius: 0;
+        background: none;
+    }
+
+    .username-field {
+        /* padding-top: .625rem; */
+        padding-bottom: 1rem;
+    }
+    
+    .password-field {
+        /* padding-top: 1.875rem; */
+        padding-bottom: 2rem;
+    }
+
+    .tombol-login {
+        height: 2.7rem;
+        width: 25rem;
+        font-size: 1.2rem;
+        font-family: "Noto Sans Semibold";
+        margin-top: 1rem;
+        /* margin-bottom: .938rem; */
+        border-radius: 5px !important;
+    }
+    
+    .tombol-admin {
+        height: 2.7rem;
+        width: 25rem;
+        font-size: 1.2rem;
+        font-family: "Noto Sans Semibold";
+        margin-top: 1rem;
+        margin-bottom: .938rem;
+        border-radius: 5px !important;
+    }
+}
